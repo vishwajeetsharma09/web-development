@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 400px;
+    color: aliceblue;
+    text-align:center;
+    background-color: rgb(214, 223, 214);
+    margin: 10px auto;
+    background-image: url(21.avif);
+    background-size: cover;
+}
