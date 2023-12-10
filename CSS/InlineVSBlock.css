@@ -1,0 +1,11 @@
+h1{
+    display: inline;
+}
+h2{
+    display: inline;
+}
+span{
+    background-color: limegreen;
+    border: 2px solid black;
+    height: 100px;
+}

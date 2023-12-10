@@ -1,0 +1,108 @@
+
+/* This is universal Selector */
+*{
+    font-family: "courier New";
+    /* background-color: aqua; */
+}
+
+/* This is Element Selector */
+
+h1,h3{
+    color: #b92b27;
+}
+
+/* This is ID Selector */
+
+#login{
+    background-color: white;
+}
+
+/* This is ID Selector */
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* This is class Selector */
+
+.upvote{
+    color: white;
+    background-color: green;
+}
+
+/* This is Descenent Selector */
+
+.post a {
+    color: pink;
+    background-color: red;
+}
+/* This is Descenent Selector */
+
+nav ul li {
+    color: orange;
+}
+/* This is Descenent Selector */
+
+nav ul li a{
+    color: rgb(184, 184, 227);
+}
+
+
+/* Adjacent sibling selector */
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    color: rgb(227, 151, 38);
+}
+
+/* child combinator */
+div > input{
+    background-color: #d11212;
+    color: chocolate;
+}
+
+/* ATTRIBUTR SECLTOR */
+input[type="text"]{
+
+    color: chocolate;
+}
+input[typr="password"]{
+    color: black;
+}
+
+button:hover {
+    background-color: black;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: orangered;
+    color: aqua;
+}
+
+input[for="yes"]:checked + label{
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.post:nth-of-type(2n)
+{
+    background-color: green;
+}
+
+h1::first-letter{
+    color: aqua;
+    background-color: green;
+}
+
+#hr>a{
+    
+    text-decoration: none;
+}

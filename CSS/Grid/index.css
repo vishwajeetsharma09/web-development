@@ -1,0 +1,20 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(233, 249, 249);
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    grid-template-rows: 100px 100px 100px;
+    
+    
+}
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(204, 233, 161);
+    border:2px solid rgb(58, 26, 26);
+    text-align: center;
+    box-shadow:-5px -5px rgb(36, 34, 34);
+    
+}

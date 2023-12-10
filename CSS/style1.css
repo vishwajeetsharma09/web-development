@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    text-decoration:wavy red underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+h2 {
+    text-align: justify;
+    font-weight: normal;
+}
+h2{
+    text-decoration: double red underline;
+    text-decoration: line-through peru;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+p {
+    line-height: normal;
+    color: red;
+}
