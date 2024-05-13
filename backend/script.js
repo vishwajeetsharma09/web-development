@@ -9,5 +9,11 @@
 // }
 
 // const someValue = require("./math");
-const info = require("./fruits");
-console.log(info);
+// const info = require("./fruits");
+// console.log(info);
+
+// import { sum, mul } from "./math.js";
+// import { generate } from "random-words";
+
+// // console.log(sum(1, 2), mul(2, 4));
+// console.log(generate());
