@@ -7,10 +7,14 @@ app.get("/register", (req, res) => {
   let { user, password } = req.query;
   res.send(`standared get response ${user}`);
 });
+
 app.post("/register", (req, res) => {
   let { user, password } = req.body;
   res.send(`standared get response ${user}`);
 });
+
 app.listen(port, () => {
   console.log(`latening port number ${port}`);
 });
+
+
